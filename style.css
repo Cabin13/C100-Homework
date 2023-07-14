@@ -1,0 +1,63 @@
+.results {
+    width: 750px;
+}
+
+#img1 {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #bc9c7c;
+    box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.2);
+}
+
+#img2 {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #bc9c7c;
+    box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.2);
+}
+
+#img3 {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #bc9c7c;
+    box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.2);
+}
+
+#body {
+    background-color: #dbcbab;
+}
+
+#start {
+    border-color: #6c4434;
+    background-color: #be9b7b;
+    box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.2);
+}
+
+.text {
+    font-family: 'Bacasime Antique', serif;
+    color: #3b230c;
+}
+
+#webcam_text {
+    font-size: 25px;
+}
+
+#results_text {
+    font-size: 25px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #dbcbab;
+}
+
+img:hover {
+    border-radius: 140px;
+}
+
+button:hover {
+    border-radius: 200px;
+}

@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>Collage Creator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Cutive+Mono&family=Dancing+Script&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+
+</head>
+
+<body id="body">
+    <center>
+        
+        <a href="" id="link" download="selfie.png"></a>
+
+        <h1 class="text" id="title">Collage Creator</h1>
+        
+        <h4 class="text" id="instructions">After you give your command, a pop up will appear. Please click allow.</h4>
+
+        <h3 class="text" >Click the start button, then say "take my selfie". There will be a five second interval between each selfie.</h3>
+
+        <button id="start" onclick="speech()" class="text" >Start</button>
+
+        <br>
+        <br>
+
+        <p class="text" id="webcam_text">Webcam:</p>
+        <div id="camera"></div>
+
+        <br>
+
+        <p class="text" id="results_text">Results:</p>
+        <div id="results">
+
+        <div id="result1"></div>
+        <br>
+        <div id="result2"></div>
+        <br>
+        <div id="result3"></div>
+        <br>
+
+        </div>
+    </center>
+
+    <div id="footer" class="text">Developed by Anya Ray</div>
+
+</body>
+
+</html>
